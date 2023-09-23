@@ -1,0 +1,101 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(46, 71, 119);
+    padding: 20px;
+    height: 8%;
+}
+
+.heading h3{
+    display: inline;
+    font-family: 'Tektur', cursive;
+    font-size: 30px;
+    color: lightskyblue;
+    text-shadow: 1px 1px 5px cyan;
+    margin-left: 10%;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+    font-size: 15px;
+    color: skyblue;
+    background: linear-gradient(to top right, #3366cc 0%, #003366 100%);
+}
+
+.heading button:hover{
+    color: skyblue;
+}
+
+#start{
+    margin-top: 5px;
+    font-size: 17px !important;
+    color: rgb(108, 255, 255) !important;
+    background: linear-gradient(to top right, #33ccff 0%, #0066ff 100%);
+}
+
+#status{
+    font-size: 18px;
+    color: black;
+}
+
+#status:hover{
+    cursor: default;
+    color: black;
+    background-color:  #5bc0de;
+}
+
+.footer{
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(46, 71, 119);
+    line-height: 2;
+    font-size: 20px;
+    color: lightskyblue;
+    text-shadow: 1px 1px cyan;
+    bottom: 0;
+}
+
+.modal-dialog{
+    width: fit-content;
+    margin-top: 9%;
+}
+
+.instru{
+    color: goldenrod;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.cross{
+    float: right;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-shadow: 2px 2px 3px crimson;
+    font-size: 40px !important;
+    color: red !important;
+    margin-right: 20px;
+}
+
+#restart{
+    font-size: 15px;
+}
+
+.lines{
+    text-align: left;
+    font-size: 20px;
+    color: brown;
+}
+
+canvas{
+    border: 10px black solid;
+    box-shadow: 1px 1px 15px red;
+}
